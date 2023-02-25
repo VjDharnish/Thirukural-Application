@@ -16,14 +16,12 @@ public class ThirukuralView implements ThirukuralViewCallBack {
 		thirukuralView.home();
 	}
 	public void home() {
-		System.out.println("Welcome  to Thirukural Application");
-		System.out.println("--------------------------------------");
-		System.out.println("Press 1 to search Thirukural by Number");
-		System.out.println("Press 2 to search thirukural by Adhigaram");
-		System.out.println("Press 3 to view Thirukural History");
-		System.out.println("Press 4 to view Thirukural Specialities");
-		System.out.println("Press 0 to exit ");
-		System.out.println("Enter your Choice:");
+		System.out.println("\n**********திருக்குறள் செயலிக்கு உங்களை வரவேற்கிறோம்***********\n");	
+		System.out.println("திருக்குறளை எண் வாரியாக தேட எண் ஒன்றை(1) அழுத்தவும்");
+		System.out.println("திருக்குறளை அதிகாரம் வாரியாக தேட எண் இரண்டை(2) அழுத்தவும்");
+		System.out.println("திருக்குறளின் சிறப்புகளை பற்றி அரிய எண் மூன்றை(3) அழுத்தவும்");
+		System.out.println("திருக்குறளின் வரலாற்றை பற்றி அரிய எண் நான்கை (4) அழுத்தவும்");
+		System.out.println("வெளியேற எண் ஐந்தை(5) அழுத்தவும்");
 		char option = sc.next().charAt(0);
 		thirukuralController.homeOptions(option);
 		
@@ -54,12 +52,12 @@ public class ThirukuralView implements ThirukuralViewCallBack {
 	}
 	@Override
 	public void exit() {
-		System.out.println("Thank You Visit Again ");
+		System.out.println("நன்றி");
 		
 	}
 	@Override
 	public void invalidOption() {
-		System.out.println("Invalid Option");
+		System.out.println("தவறான விருப்பம்");
 		home();
 		
 	}
