@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ThirukuralApp</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>assert/thirukkural.json</name>
+			<type>1</type>
+			<location>D:/Folder/java class/Thirukural Application/src/assert/thirukkural.json</location>
+		</link>
+		<link>
+			<name>src/thirukkural.json</name>
+			<type>1</type>
+			<location>D:/Folder/java class/Thirukural Application/src/assert/thirukkural.json</location>
+		</link>
+		<link>
+			<name>src/thirukkuralAdhigaramEdited.json</name>
+			<type>1</type>
+			<location>D:/Folder/java class/Thirukural Application/src/assert/thirukkuralAdhigaramEdited.json</location>
+		</link>
+	</linkedResources>
+</projectDescription>
